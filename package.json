@@ -1,0 +1,15 @@
+{
+  "name": "ts-jquery-less",
+  "version": "1.0.0",
+  "description": "onlineedu.golday.hk 直播项目改版",
+  "main": "main.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "author": "hlsky1988",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^1.10.34",
+    "jquery": "^1.12.4"
+  }
+}

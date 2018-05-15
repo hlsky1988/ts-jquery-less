@@ -1,0 +1,8 @@
+{
+  "npm-scripts.showStartNotification": false,
+  "less.compile": {
+    "compress": true, 
+    "sourceMap": false, 
+    "out": "${workspaceRoot}\\src\\css\\"
+  }
+}

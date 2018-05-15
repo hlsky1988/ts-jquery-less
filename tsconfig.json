@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./src/js/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "amd",
+    "target": "es5",
+    "allowJs": true
+  },
+  "include": ["./ts/*"],
+  "exclude": ["node_modules"]
+}
