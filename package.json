@@ -4,8 +4,9 @@
   "description": "onlineedu.golday.hk 直播项目改版",
   "main": "main.js",
   "scripts": {
-    "dev-server":"live-server --port=8888 --browser=chrome | tsc -w",
-    "tsc": "tsc -w"
+    "dev-server": "live-server --port=8888 --browser=chrome | tsc -w",
+    "tsc-watch": "tsc --watch --sourceMap",
+    "tsc": "node main.js && tsc"
   },
   "author": "hlsky1988",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "jquery": "^1.12.4"
   },
   "devDependencies": {
+    "glob": "^7.1.2",
     "live-server": "^1.2.0"
   }
 }
